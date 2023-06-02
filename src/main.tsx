@@ -16,11 +16,9 @@ import Movies from './pages/Movies';
 import EmojieProvider from './contexts/GenreContext';
 import Account from './pages/Account';
 import SelectSeats from './pages/SelectSeats';
-import ChangePassword from './pages/ChangePassword';
 import FavoriteGenres from './pages/FavoriteGenres';
 import EditProfile from './pages/EditProfile';
 import BookmarkedMovies from './pages/BookmarkedMovies';
-//import BookmarkedMoviesProvider from './contexts/BookmarkedMoviesContext';
 import FullPageLayout from './components/FullPageLayout';
 import LogInLayout from './components/LogInLayout';
 
@@ -86,10 +84,6 @@ export const router = createBrowserRouter([
       {
         path: '/editprofile',
         element: <EditProfile />,
-      },
-      {
-        path: '/changepassword',
-        element: <ChangePassword />,
       },
       {
         path: '/favoriteGenres',
